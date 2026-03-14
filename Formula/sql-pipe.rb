@@ -7,22 +7,22 @@ class SqlPipe < Formula
   on_macos do
     on_arm do
       url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-aarch64-macos"
-      sha256 "91179de56e473b0f4e63b28e2356a6986bddfee4e93c1b0aafb5ed3900c1d4ab"
+      sha256 "24f0f09aa20430c3fc5d5e0b2d6da15c098df5e70577f68bc62052c7dc56f660"
     end
     on_intel do
       url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-x86_64-macos"
-      sha256 "8c97b14ef2290bb4457aaa9946e83a0327ef8c22fe6e64f450644e4668f2f96a"
+      sha256 "9b95accb1256ce3e2d2da836a425ff57d6aae967e16488d152c089ae86c2883d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-aarch64-linux"
-      sha256 "e63191623988aa785b722ef6c7cf8b5478f8ea1b108d86708dd7e3982eef59a9"
+      sha256 "c66c8743b00799d03eac462cb0c5d51c16e6c330bd8a3c8ebd20828a563ac541"
     end
     on_intel do
       url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-x86_64-linux"
-      sha256 "5314bab6014f010e92d63ccc01959eb5936a1829dea47e7d2701099943e20dfb"
+      sha256 "f2d8619561f0b0f946f1ef51d899eebf239548d5a2d88b70fffbd13d437175db"
     end
   end
 
