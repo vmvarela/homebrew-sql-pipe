@@ -1,28 +1,28 @@
 class SqlPipe < Formula
   desc "Read CSV from stdin, query with SQL, write CSV to stdout"
   homepage "https://github.com/vmvarela/sql-pipe"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-aarch64-macos"
-      sha256 "24f0f09aa20430c3fc5d5e0b2d6da15c098df5e70577f68bc62052c7dc56f660"
+      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.1/sql-pipe-aarch64-macos"
+      sha256 "5633f49f6cf7598d7a1a4ae691af0c5daca670ad6ced3aedb7820ff0d5352654"
     end
     on_intel do
-      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-x86_64-macos"
-      sha256 "9b95accb1256ce3e2d2da836a425ff57d6aae967e16488d152c089ae86c2883d"
+      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.1/sql-pipe-x86_64-macos"
+      sha256 "250652cf6881e4e0c1d8d5921b32ec1a99d2257e2566ca280eae377c607e6e55"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-aarch64-linux"
-      sha256 "c66c8743b00799d03eac462cb0c5d51c16e6c330bd8a3c8ebd20828a563ac541"
+      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.1/sql-pipe-aarch64-linux"
+      sha256 "fb851e787ab928247ada3e37ec641a09656de266d60c4a75f9a235a7ecd9a399"
     end
     on_intel do
-      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.0/sql-pipe-x86_64-linux"
-      sha256 "f2d8619561f0b0f946f1ef51d899eebf239548d5a2d88b70fffbd13d437175db"
+      url "https://github.com/vmvarela/sql-pipe/releases/download/v0.3.1/sql-pipe-x86_64-linux"
+      sha256 "2f152e77d32ea0ba9dee0288e20afff5a1d8d145a025a8a09def35f4685a6c2e"
     end
   end
 
