@@ -26,8 +26,14 @@ class SqlPipe < Formula
     end
   end
 
+  resource "man" do
+    url "https://github.com/vmvarela/sql-pipe/releases/download/v0.4.0/sql-pipe.1.gz"
+    sha256 "24ce0d469eaa543d6c4289c236a3640845130924042bcbc2420c778ed4ef8a5d"
+  end
+
   def install
     bin.install Dir["sql-pipe*"].first => "sql-pipe"
+    resource("man").stage { man1.install "sql-pipe.1.gz" }
   end
 
   test do
